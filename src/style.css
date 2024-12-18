@@ -1,0 +1,117 @@
+*, *::before, *::after{
+  box-sizing: border-box; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", serif;
+  height: 100vh;
+  width: 100%;
+}
+.form-registration {
+  border-radius: 9px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  margin: 0 auto;
+  padding: 32px 24px 19px 24px;
+  background: #edf1f3;
+  max-width: 375px;
+}
+
+.form-registration h1 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 12px;
+}
+.form-registration p {
+  font-size: 12px;
+  font-weight: medium;
+  color: #6C7278;
+  margin-bottom: 24px;
+}
+
+#form {
+  position: relative;
+}
+
+#form label {
+  color: #6C7278;
+  display: block;
+  margin-bottom: 3px;
+  font-size: 12px;
+  font-weight: medium;
+}
+
+#form label:not(:first-child) {
+  margin-top: 16px;
+}
+
+input {
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+  outline: none;
+  color: #1A1C1E;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 2 0 #e4e5e7;
+  padding: 14px 27px;
+  /* margin-bottom: 16px; */
+}
+
+/* Стилизовать классы invalid и valid */
+input.invalid {
+  border: 1px solid red;
+}
+
+input.valid {
+  border: 1px solid green;
+}
+
+#form button {
+  cursor: pointer;
+  margin-top: 24px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #1D61E7;
+  font-size: 14px;
+  font-weight: medium;
+  padding: 14px 0;
+  width: 100%;
+}
+
+#form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* #form > span {
+  margin-bottom: 16px;
+} */
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.log-in {
+  text-align: center;
+  color: #6C7278;
+  font-size: 12px;
+  font-weight: medium;
+  margin-top: 113px;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: #4D81E7;
+}
