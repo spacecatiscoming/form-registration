@@ -161,5 +161,3 @@ submitButton.addEventListener("click", function (e) {
     input.classList.remove("valid");
   });
 });
-
-// React.123357
