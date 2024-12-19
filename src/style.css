@@ -14,10 +14,6 @@ body {
 }
 .form-registration {
   border-radius: 9px;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
   margin: 0 auto;
   padding: 32px 24px 19px 24px;
   background: #edf1f3;
@@ -64,7 +60,6 @@ input {
   border-radius: 10px;
   box-shadow: 0 1px 2 0 #e4e5e7;
   padding: 14px 27px;
-  /* margin-bottom: 16px; */
 }
 
 /* Стилизовать классы invalid и valid */
@@ -94,9 +89,6 @@ input.valid {
   cursor: not-allowed;
 }
 
-/* #form > span {
-  margin-bottom: 16px;
-} */
 
 .error {
   color: red;
